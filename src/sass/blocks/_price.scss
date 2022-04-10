@@ -1,0 +1,46 @@
+.price{
+    margin-top: 5vh;
+    &_wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        // grid-template-rows: 95vh;
+        // grid-auto-rows: 95vh;
+        gap: 10vh;
+        justify-content: center;
+        justify-items: center;
+    }
+    &_card{
+        width: 100%;
+        font-weight: 200;
+        font-size: 40px;
+        text-align: center;
+        // line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 1px 3px rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(20px);
+        padding: 20px 10px 35px 10px;
+        &-cost{
+            margin-top: 10px;
+            text-transform: none;
+        }
+        ul{
+            margin-top: 10px;
+            font-size: 30px;
+            text-align: center; 
+            li{
+                position: relative;
+                list-style-type: none;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+.divider{
+    width: 60%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 20px auto;
+}

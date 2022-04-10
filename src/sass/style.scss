@@ -1,0 +1,33 @@
+@import 'libs/fonts';
+
+@import 'base/variables';
+@import 'base/mixins';
+* {
+    font-family: 'Aliens and Cows', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #46492D;
+    transition: 0.6s all;
+}
+.hidden {
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/about';
+@import 'blocks/works';
+@import 'blocks/price';
+@import 'blocks/contacts';
+@import 'blocks/burger';
+@import 'blocks/media';
+

@@ -1,0 +1,25 @@
+.works{
+    // height: 100vh;
+    margin-top: 5vh;
+    &_title{
+        font-weight: 200;
+        font-size: 40px;
+        line-height: 42px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &_wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 1px;
+        justify-content: center;
+        margin-top: 8vh;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

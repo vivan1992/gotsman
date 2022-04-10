@@ -1,0 +1,39 @@
+.contacts{
+    position: relative;
+    height: 100vh;
+    background: url('../img/contacts_bg.jpg') no-repeat center/cover;
+    &_wrapper{
+        margin-top: 60px;
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px
+    }
+    &_social{
+        &-items{
+            margin-top: 45px;
+            display: flex;
+            justify-content: space-around;
+            &-phone{
+                text-decoration: none;
+                color: #fff;
+                font-size: 30px;
+                img{
+                    margin-right: 15px;
+                }
+            }
+        }
+        
+    }
+}
+.copyright{
+    position: absolute;
+    bottom: 20px;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    left: 50%;
+    transform: translateX(-50%);
+}
